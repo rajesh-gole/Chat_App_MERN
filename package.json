@@ -4,12 +4,13 @@
   "description": "mern-chat-app",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "nodemon backend/server.js"
   },
   "author": "rajesh-gole",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
   }
 }
